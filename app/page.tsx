@@ -62,7 +62,17 @@ const GAME_DATA: Record<string, CategoryData> = {
       { id: 'f_t15', text: "Quelle est ta plus grande peur insolite ou ridicule (araignées, noir, bruits bizarres) ?" },
       { id: 'f_t16', text: "Quel est ton pire souvenir culinaire préparé par l'un de tes proches ?" },
       { id: 'f_t17', text: "Si tu gagnais au loto demain, quelle est la première chose que tu achèterais pour le groupe ?" },
-      { id: 'f_t18', text: "Quel objet de ta chambre ou de la maison aimerais-tu secrètement jeter ou faire disparaître ?" }
+      { id: 'f_t18', text: "Quel objet de ta chambre ou de la maison aimerais-tu secrètement jeter ou faire disparaître ?" },
+      { id: 'f_t19', text: "Si tu devais renommer l'un de tes proches par un surnom rigolo, lequel choisirais-tu et pourquoi ?" },
+      { id: 'f_t20', text: "Quelle est la pire chanson que tu chantes à tue-tête quand tu es tout seul sous la douche ?" },
+      { id: 'f_t21', text: "Si tu avais une machine à remonter le temps, dans quelle époque passée ou future irais-tu en famille ?" },
+      { id: 'f_t22', text: "Quel animal sauvage aimerais-tu secrètement adopter comme animal de compagnie à la maison ?" },
+      { id: 'f_t23', text: "Quelle est la règle de la maison que tu enfreins le plus souvent en cachette ?" },
+      { id: 'f_t24', text: "Qui dans la famille est selon toi le plus susceptible de survivre à une invasion de zombies ?" },
+      { id: 'f_t25', text: "Si tu pouvais manger un seul aliment pour le reste de ta vie sans grossir ni tomber malade, lequel serait-ce ?" },
+      { id: 'f_t26', text: "Quel est le cadeau de Noël ou d'anniversaire le plus bizarre que tu aies jamais reçu ?" },
+      { id: 'f_t27', text: "Si tu devais décrire chaque personne présente ici en utilisant un seul mot, quels seraient ces mots ?" },
+      { id: 'f_t28', text: "Quelle est la chose la plus ridicule qui te fasse éclater de rire à chaque fois ?" }
     ],
     dares: [
       { id: 'f_d1', text: "Fais ta meilleure imitation d'un singe excité pendant 20 secondes." },
@@ -81,7 +91,17 @@ const GAME_DATA: Record<string, CategoryData> = {
       { id: 'f_d14', text: "Fais comme si tu étais une statue figée pendant une minute entière, même si on essaie de t'arracher un rire." },
       { id: 'f_d15', text: "Essaie de toucher le bout de ton nez avec ta langue, ou fais ta grimace la plus effrayante." },
       { id: 'f_d16', text: "Fais une déclaration solennelle très sérieuse en t'adressant à la télévision ou à un meuble de la pièce." },
-      { id: 'f_d17', text: "Fais 5 fentes d'affilée en chantant une berceuse enfantine le plus fort possible." }
+      { id: 'f_d17', text: "Fais 5 fentes d'affilée en chantant une berceuse enfantine le plus fort possible." },
+      { id: 'f_d18', text: "Fais semblant d'être un présentateur météo méticuleux et annonce une tempête de bonbons dans la pièce." },
+      { id: 'f_d19', text: "Fais une marche militaire ultra rigide tout autour de la table en saluant chaque joueur." },
+      { id: 'f_d20', text: "Parle avec une voix de tout petit bébé mignon pendant les deux prochaines minutes de jeu." },
+      { id: 'f_d21', text: "Imite un chien qui essaie désespérément d'attraper sa propre queue pendant 25 secondes." },
+      { id: 'f_d22', text: "Fais comme si tu flottais en apesanteur dans l'espace pendant toute la durée de ton action." },
+      { id: 'f_d23', text: "Dessine une moustache imaginaire sur ton visage en utilisant de l'eau ou un feutre effaçable si disponible." },
+      { id: 'f_d24', text: "Raconte une histoire imaginaire de fantômes de 30 secondes en éteignant la lumière ou avec une voix effrayante." },
+      { id: 'f_d25', text: "Sursaute de peur de façon totalement exagérée à chaque fois que quelqu'un prononce ton prénom." },
+      { id: 'f_d26', text: "Porte tes chaussures à l'envers ou mets tes chaussettes sur tes mains jusqu'à ton prochain tour." },
+      { id: 'f_d27', text: "Fais dix sauts à cloche-pied en chantant joyeusement : 'Je suis un petit lapin tout fou !'" }
     ]
   },
   party: {
@@ -98,7 +118,7 @@ const GAME_DATA: Record<string, CategoryData> = {
       { id: 'p_t6', text: "As-tu déjà espionné le compte de quelqu'un sur les réseaux d'un peu trop près ?" },
       { id: 'p_t7', text: "Quelle est la chose la plus ridicule ou inutile que tu as achetée sous le coup de l'impulsion récemment ?" },
       { id: 'p_t8', text: "Quel a été ton pire moment de solitude ou la situation la plus embarrassante de ta vie ?" },
-      { id: 'p_t9', text: "Quelle est ton habitude ou ton rituel en soirée le plus bizarre ou gênant ?" },
+      { id: 'p_t9', text: "Quelle est ton habititude ou ton rituel en soirée le plus bizarre ou gênant ?" },
       { id: 'p_t10', text: "De tous les joueurs présents, avec qui refuserais-tu catégoriquement de partir en voyage de survie sauvage ?" },
       { id: 'p_t11', text: "Quel est le dernier message particulièrement compromettant ou drôle que tu as envoyé ou reçu ?" },
       { id: 'p_t12', text: "Si tu devais supprimer définitivement l'un de tes réseaux sociaux, lequel choisirais-tu et pourquoi ?" },
@@ -107,7 +127,17 @@ const GAME_DATA: Record<string, CategoryData> = {
       { id: 'p_t15', text: "Si tu devais confier le code secret de ton mobile à un seul joueur présent, à qui ferais-tu le moins confiance ?" },
       { id: 'p_t16', text: "Quelle est la pire décision romantique ou amicale que tu as prise sous l'effet de l'ambiance d'une soirée tardive ?" },
       { id: 'p_t17', text: "Quel est le défi ou gage de cette partie que tu redoutes secrètement par-dessus tout ?" },
-      { id: 'p_t18', text: "Combien de jours as-tu déjà passés d'affilée sans te doucher (ton record le plus inavouable) ?" }
+      { id: 'p_t18', text: "Combien de jours as-tu déjà passés d'affilée sans te doucher (ton record le plus inavouable) ?" },
+      { id: 'p_t19', text: "Quelle est la pire idée que tu as eue durant une soirée festive et que tu as regrettée le lendemain ?" },
+      { id: 'p_t20', text: "Si tu devais donner une note de 1 à 10 à la playlist ou à l'ambiance de cette soirée, combien mettrais-tu ?" },
+      { id: 'p_t21', text: "Quel est le secret le plus croustillant que tu connaisses sur quelqu'un d'autre présent dans cette pièce ?" },
+      { id: 'p_t22', text: "Quel est ton pire râteau amoureux ou ton rencard le plus catastrophique à ce jour ?" },
+      { id: 'p_t23', text: "Si tu pouvais effacer une seule journée entière de ta mémoire ou de ton historique, laquelle serait-ce ?" },
+      { id: 'p_t24', text: "Quelle est la pire rumeur fausse ou vraie que tu as entendue à ton sujet à l'école ou au travail ?" },
+      { id: 'p_t25', text: "Quel est le message envoyé par erreur au mauvais destinataire qui t'a causé la plus grande frayeur ?" },
+      { id: 'p_t26', text: "As-tu déjà fouillé discrètement dans la salle de bain ou la chambre d'un hôte lors d'une soirée chez lui ?" },
+      { id: 'p_t27', text: "Si la police débarquait ici tout de suite, qui serait le premier suspect recherché selon toi et pourquoi ?" },
+      { id: 'p_t28', text: "Quelle est la manie ou le toc le plus bizarre que tu as quand personne ne te regarde ?" }
     ],
     dares: [
       { id: 'p_d1', text: "Fais une déclaration d'amour ultra romantique et théâtrale à l'objet à ta droite ou au balai de la cuisine." },
@@ -125,7 +155,17 @@ const GAME_DATA: Record<string, CategoryData> = {
       { id: 'p_d13', text: "Essaie sérieusement d'embrasser ou de lécher ton propre coude pendant 20 secondes sous le regard de tous." },
       { id: 'p_d14', text: "Réalise un défilé de haute couture digne des plus grands en utilisant un objet absurde de la pièce comme accessoire phare." },
       { id: 'p_d15', text: "Parle comme un pirate (en rajoutant des 'Moussaillon !' et des 'Mille sabords !') jusqu'à ton prochain tour." },
-      { id: 'p_d16', text: "Présente d'une voix sérieuse d'influenceur beauté les mérites révolutionnaires d'une brosse à dents ou d'un stylo." }
+      { id: 'p_d16', text: "Présente d'une voix sérieuse d'influenceur beauté les mérites révolutionnaires d'une brosse à dents ou d'un stylo." },
+      { id: 'p_d17', text: "Mime un DJ professionnel enflammé mixant devant un public en délire pendant 30 secondes." },
+      { id: 'p_d18', text: "Fais mine d'être extrêmement vexé et boude dans un coin de la pièce pendant toute une minute de jeu." },
+      { id: 'p_d19', text: "Décris un objet banal de la pièce d'une manière incroyablement spirituelle et philosophique." },
+      { id: 'p_d20', text: "Appelle une personne au hasard de tes contacts et essaie de lui vendre un trombone imaginaire." },
+      { id: 'p_d21', text: "Mange une cuillère de moutarde, de ketchup ou une pincée de poivre cul sec." },
+      { id: 'p_d22', text: "Échange un vêtement ou accessoire (sa montre, sa veste, sa coiffe...) avec ton voisin de gauche." },
+      { id: 'p_d23', text: "Laisse un autre joueur te maquiller ou dessiner un motif ridicule sur ta joue avec un feutre effaçable." },
+      { id: 'p_d24', text: "Fais des compliments de type poète romantique dramatique à toutes les personnes présentes, sans exception." },
+      { id: 'p_d25', text: "Réalise une chorégraphie de danse de salon classique très sérieusement avec un balai ou une chaise." },
+      { id: 'p_d26', text: "Imite de façon très exagérée les tics ou expressions favorites d'un autre joueur jusqu'à ce qu'on devine qui c'est." }
     ]
   },
   spicy: {
@@ -151,7 +191,17 @@ const GAME_DATA: Record<string, CategoryData> = {
       { id: 's_t15', text: "As-tu déjà envoyé ou reçu des messages particulièrement suggestifs (comme des sextos) ?" },
       { id: 's_t16', text: "Si tu devais caractériser ton propre style de séduction en un unique adjectif, lequel serait-il ?" },
       { id: 's_t17', text: "As-tu déjà fait semblant d'apprécier intensément ou simulé de l'enthousiasme lors d'un rendez-vous galant ?" },
-      { id: 's_t18', text: "Selon toi, qui dans ce groupe possède la voix ou l'attitude la plus irrésistiblement sensuelle ?" }
+      { id: 's_t18', text: "Selon toi, qui dans ce groupe possède la voix ou l'attitude la plus irrésistiblement sensuelle ?" },
+      { id: 's_t19', text: "As-tu déjà simulé une maladie ou un imprévu pour écourter un rendez-vous galant ennuyeux ?" },
+      { id: 's_t20', text: "Quelle est la bêtise ou le fantasme le plus audacieux que tu espères secrètement réaliser un jour ?" },
+      { id: 's_t21', text: "Qu'est-ce qui te fait rougir instantanément chez quelqu'un que tu trouves séduisant ?" },
+      { id: 's_t22', text: "Quel est le plus grand nombre de personnes que tu as embrassées en une seule soirée ou fête ?" },
+      { id: 's_t23', text: "As-tu déjà envoyé un message coquin à la mauvaise personne ? Raconte cette frayeur !" },
+      { id: 's_t24', text: "Quel joueur ici présent a selon toi le regard le plus captivant ou hypnotique ?" },
+      { id: 's_t25', text: "Préfères-tu les baisers doux et romantiques ou passionnés et un peu sauvages ?" },
+      { id: 's_t26', text: "As-tu déjà eu un rêve torride ou intime impliquant l'un des joueurs de la partie ?" },
+      { id: 's_t27', text: "Quelle est ta zone corporelle la plus sensible aux caresses ou aux frissons ?" },
+      { id: 's_t28', text: "As-tu déjà menti à un partenaire pour paraître plus expérimenté qu'en réalité ?" }
     ],
     dares: [
       { id: 's_d1', text: "Fixe le joueur d'en face droit dans les yeux avec ton regard le plus enflammé et hypnotique pendant 20 secondes." },
@@ -170,7 +220,17 @@ const GAME_DATA: Record<string, CategoryData> = {
       { id: 's_d14', text: "Fais un massage des mains de 30 secondes extrêmement attentionné au joueur assis face à toi." },
       { id: 's_d15', text: "Enlève un accessoire ou un article de ton choix (comme une veste, une chaussette, ou un bijou) de façon théâtrale." },
       { id: 's_d16', text: "Rejoue une scène romantique culte de film durant 20 secondes avec le joueur de ton choix." },
-      { id: 's_d17', text: "Frotte doucement ton nez contre le nez du joueur à ta gauche (un bisou d'esquimau chaleureux)." }
+      { id: 's_d17', text: "Frotte doucement ton nez contre le nez du joueur à ta gauche (un bisou d'esquimau chaleureux)." },
+      { id: 's_d18', text: "Murmure une poésie passionnée d'une voix de séducteur de cinéma au joueur en face de toi." },
+      { id: 's_d19', text: "Fais un baiser papillon (avec tes cils) sur la joue ou le cou du joueur de ton choix." },
+      { id: 's_d20', text: "Trace lentement les contours des lèvres d'un autre joueur avec ton index pendant 10 secondes." },
+      { id: 's_d21', text: "Fais une déclaration enflammée digne d'un poète passionné à la personne située à ta gauche." },
+      { id: 's_d22', text: "Fais glisser tes doigts délicatement dans les cheveux d'un joueur consentant pendant 20 secondes." },
+      { id: 's_d23', text: "Dessine un cœur imaginaire très lentement avec ton doigt sur le dos ou le cou de ton voisin." },
+      { id: 's_d24', text: "Mange un morceau de glace ou de bonbon de la manière la plus délicieusement langoureuse devant le groupe." },
+      { id: 's_d25', text: "Dis au joueur de ton choix ce que tu trouves de plus sensuel et de plus charmant chez lui." },
+      { id: 's_d26', text: "Dessine une petite étoile au stylo sur la cheville ou le poignet d'un autre joueur en douceur." },
+      { id: 's_d27', text: "Chuchote un secret coquin imaginaire sous forme de devinette rigolote à ton voisin de droite." }
     ]
   }
 };
