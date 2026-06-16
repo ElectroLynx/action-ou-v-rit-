@@ -1,0 +1,6 @@
+{
+  "name": "Action ou Vérité",
+  "description": "Un jeu d'ambiance moderne, festif et haut en couleur avec des animations fluides, des gages amusants et trois modes de jeu.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
